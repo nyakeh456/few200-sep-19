@@ -3,7 +3,7 @@
          class="btn btn-sm btn-primary"
          value="-"
          (click)="decrement()">
-  <span>{{ current }}</span>
+  <span>{{ current$ | async }}</span>
   <input type="button"
          class="btn btn-sm btn-primary"
          value="+"
