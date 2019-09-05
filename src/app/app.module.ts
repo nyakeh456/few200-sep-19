@@ -14,8 +14,6 @@ import { reducers } from './reducers';
 import { EffectsModule } from '@ngrx/effects';
 import { CounterEffects } from './effects/counter.effects';
 
-
-
 @NgModule({
   declarations: [
     AppComponent,
